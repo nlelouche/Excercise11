@@ -19,6 +19,9 @@
 		2477A92B1520E390007D270A /* Ex11DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2477A92A1520E390007D270A /* Ex11DetailViewController.m */; };
 		2477A92E1520E390007D270A /* Ex11MasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2477A92C1520E390007D270A /* Ex11MasterViewController.xib */; };
 		2477A9311520E391007D270A /* Ex11DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2477A92F1520E391007D270A /* Ex11DetailViewController.xib */; };
+		2477A9391520E4F7007D270A /* Beer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2477A9381520E4F7007D270A /* Beer.m */; };
+		2477A93D1520E511007D270A /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2477A93B1520E511007D270A /* MyViewController.m */; };
+		2477A93E1520E511007D270A /* MyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2477A93C1520E511007D270A /* MyViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,19 +30,24 @@
 		2477A9111520E390007D270A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		2477A9131520E390007D270A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		2477A9151520E390007D270A /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		2477A9191520E390007D270A /* Excercise11-Info.plist */ = {isa = PBXFileReference; path = "Excercise11-Info.plist"; sourceTree = "<group>"; };
+		2477A9191520E390007D270A /* Excercise11-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Excercise11-Info.plist"; sourceTree = "<group>"; };
 		2477A91B1520E390007D270A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2477A91D1520E390007D270A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		2477A91F1520E390007D270A /* Excercise11-Prefix.pch */ = {isa = PBXFileReference; path = "Excercise11-Prefix.pch"; sourceTree = "<group>"; };
-		2477A9201520E390007D270A /* Ex11AppDelegate.h */ = {isa = PBXFileReference; path = Ex11AppDelegate.h; sourceTree = "<group>"; };
+		2477A91F1520E390007D270A /* Excercise11-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Excercise11-Prefix.pch"; sourceTree = "<group>"; };
+		2477A9201520E390007D270A /* Ex11AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Ex11AppDelegate.h; sourceTree = "<group>"; };
 		2477A9211520E390007D270A /* Ex11AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Ex11AppDelegate.m; sourceTree = "<group>"; };
 		2477A9241520E390007D270A /* Excercise11.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Excercise11.xcdatamodel; sourceTree = "<group>"; };
-		2477A9261520E390007D270A /* Ex11MasterViewController.h */ = {isa = PBXFileReference; path = Ex11MasterViewController.h; sourceTree = "<group>"; };
+		2477A9261520E390007D270A /* Ex11MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Ex11MasterViewController.h; sourceTree = "<group>"; };
 		2477A9271520E390007D270A /* Ex11MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Ex11MasterViewController.m; sourceTree = "<group>"; };
-		2477A9291520E390007D270A /* Ex11DetailViewController.h */ = {isa = PBXFileReference; path = Ex11DetailViewController.h; sourceTree = "<group>"; };
+		2477A9291520E390007D270A /* Ex11DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Ex11DetailViewController.h; sourceTree = "<group>"; };
 		2477A92A1520E390007D270A /* Ex11DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Ex11DetailViewController.m; sourceTree = "<group>"; };
 		2477A92D1520E390007D270A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Ex11MasterViewController.xib; sourceTree = "<group>"; };
 		2477A9301520E391007D270A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Ex11DetailViewController.xib; sourceTree = "<group>"; };
+		2477A9371520E4F7007D270A /* Beer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Beer.h; path = ../Beer.h; sourceTree = "<group>"; };
+		2477A9381520E4F7007D270A /* Beer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Beer.m; path = ../Beer.m; sourceTree = "<group>"; };
+		2477A93A1520E511007D270A /* MyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyViewController.h; path = ../MyViewController.h; sourceTree = "<group>"; };
+		2477A93B1520E511007D270A /* MyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyViewController.m; path = ../MyViewController.m; sourceTree = "<group>"; };
+		2477A93C1520E511007D270A /* MyViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MyViewController.xib; path = ../MyViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +96,11 @@
 		2477A9171520E390007D270A /* Excercise11 */ = {
 			isa = PBXGroup;
 			children = (
+				2477A93A1520E511007D270A /* MyViewController.h */,
+				2477A93B1520E511007D270A /* MyViewController.m */,
+				2477A93C1520E511007D270A /* MyViewController.xib */,
+				2477A9371520E4F7007D270A /* Beer.h */,
+				2477A9381520E4F7007D270A /* Beer.m */,
 				2477A9201520E390007D270A /* Ex11AppDelegate.h */,
 				2477A9211520E390007D270A /* Ex11AppDelegate.m */,
 				2477A9261520E390007D270A /* Ex11MasterViewController.h */,
@@ -167,6 +180,7 @@
 				2477A91C1520E390007D270A /* InfoPlist.strings in Resources */,
 				2477A92E1520E390007D270A /* Ex11MasterViewController.xib in Resources */,
 				2477A9311520E391007D270A /* Ex11DetailViewController.xib in Resources */,
+				2477A93E1520E511007D270A /* MyViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -182,6 +196,8 @@
 				2477A9251520E390007D270A /* Excercise11.xcdatamodeld in Sources */,
 				2477A9281520E390007D270A /* Ex11MasterViewController.m in Sources */,
 				2477A92B1520E390007D270A /* Ex11DetailViewController.m in Sources */,
+				2477A9391520E4F7007D270A /* Beer.m in Sources */,
+				2477A93D1520E511007D270A /* MyViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
